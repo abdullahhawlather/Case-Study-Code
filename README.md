@@ -1,7 +1,4 @@
-# Supplier Decision Console — Streamlit prototype
-
-Python rebuild of the same tool, using the same formulas as the HTML/JS version.
-
+# Supplier Decision Console
 ## Run it
 
 ```bash

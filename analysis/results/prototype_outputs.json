@@ -1,0 +1,115 @@
+{
+ "None": {
+  "n_history": 476,
+  "n_survey": 150,
+  "D_h": 1611.0498046875,
+  "D_c": 33829.68505477905,
+  "alpha_0.0": {
+   "hybrid_demand": 1611.0498046875,
+   "feasible_suppliers": 4,
+   "ranking": [
+    [
+     "Gamma_Co",
+     0.733
+    ],
+    [
+     "Beta_Supplies",
+     0.547
+    ],
+    [
+     "Alpha_Inc",
+     0.515
+    ],
+    [
+     "Delta_Logistics",
+     0.139
+    ]
+   ]
+  },
+  "alpha_0.4": {
+   "hybrid_demand": 14498.503904724123,
+   "feasible_suppliers": 0,
+   "ranking": []
+  }
+ },
+ "P001": {
+  "n_history": 152,
+  "n_survey": 80,
+  "D_h": 1110.6905517578125,
+  "D_c": 14988.571542739868,
+  "alpha_0.0": {
+   "hybrid_demand": 1110.6905517578125,
+   "feasible_suppliers": 0,
+   "ranking": []
+  },
+  "alpha_0.4": {
+   "hybrid_demand": 6661.8429481506355,
+   "feasible_suppliers": 0,
+   "ranking": []
+  }
+ },
+ "P002": {
+  "n_history": 164,
+  "n_survey": 14,
+  "D_h": 1048.820556640625,
+  "D_c": 6672.475280761719,
+  "alpha_0.0": {
+   "hybrid_demand": 1048.820556640625,
+   "feasible_suppliers": 0,
+   "ranking": []
+  },
+  "alpha_0.4": {
+   "hybrid_demand": 3298.2824462890626,
+   "feasible_suppliers": 0,
+   "ranking": []
+  }
+ },
+ "P003": {
+  "n_history": 174,
+  "n_survey": 14,
+  "D_h": 1022.7545776367188,
+  "D_c": 2317.6131134033203,
+  "alpha_0.0": {
+   "hybrid_demand": 1022.7545776367188,
+   "feasible_suppliers": 0,
+   "ranking": []
+  },
+  "alpha_0.4": {
+   "hybrid_demand": 1540.6979919433593,
+   "feasible_suppliers": 0,
+   "ranking": []
+  }
+ },
+ "P004": {
+  "n_history": 148,
+  "n_survey": 20,
+  "D_h": 1237.9432373046875,
+  "D_c": 5508.05891418457,
+  "alpha_0.0": {
+   "hybrid_demand": 1237.9432373046875,
+   "feasible_suppliers": 0,
+   "ranking": []
+  },
+  "alpha_0.4": {
+   "hybrid_demand": 2945.9895080566403,
+   "feasible_suppliers": 0,
+   "ranking": []
+  }
+ },
+ "P005": {
+  "n_history": 139,
+  "n_survey": 22,
+  "D_h": 1073.3089599609375,
+  "D_c": 4161.66463470459,
+  "alpha_0.0": {
+   "hybrid_demand": 1073.3089599609375,
+   "feasible_suppliers": 0,
+   "ranking": []
+  },
+  "alpha_0.4": {
+   "hybrid_demand": 2308.6512298583984,
+   "feasible_suppliers": 0,
+   "ranking": []
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "alpha": 0.4,
+ "g_c": 0.107,
+ "D_h_median": 1789.8618774414062,
+ "D_h_min": 1607.5689697265625,
+ "D_h_max": 1960.46435546875,
+ "D_hybrid_normal": 1866,
+ "table12": [
+  {
+   "supplier": "Gamma_Co",
+   "capacity": 2102,
+   "score": 0.733,
+   "rank": 1,
+   "feasible_if_Dh_at_most": 2102,
+   "feasible_in_every_seed_run": true,
+   "feasible_in_no_seed_run": false
+  },
+  {
+   "supplier": "Beta_Supplies",
+   "capacity": 2382,
+   "score": 0.547,
+   "rank": 2,
+   "feasible_if_Dh_at_most": 2382,
+   "feasible_in_every_seed_run": true,
+   "feasible_in_no_seed_run": false
+  },
+  {
+   "supplier": "Alpha_Inc",
+   "capacity": 1859,
+   "score": 0.515,
+   "rank": 3,
+   "feasible_if_Dh_at_most": 1859,
+   "feasible_in_every_seed_run": false,
+   "feasible_in_no_seed_run": false
+  },
+  {
+   "supplier": "Epsilon_Group",
+   "capacity": 1605,
+   "score": 0.42,
+   "rank": 4,
+   "feasible_if_Dh_at_most": 1605,
+   "feasible_in_every_seed_run": false,
+   "feasible_in_no_seed_run": true
+  },
+  {
+   "supplier": "Delta_Logistics",
+   "capacity": 1917,
+   "score": 0.139,
+   "rank": 5,
+   "feasible_if_Dh_at_most": 1917,
+   "feasible_in_every_seed_run": false,
+   "feasible_in_no_seed_run": false
+  }
+ ],
+ "table13": [
+  {
+   "scenario": "Low (x0.8)",
+   "demand": 1493,
+   "feasible_in_rank_order": [
+    "Gamma_Co",
+    "Beta_Supplies",
+    "Alpha_Inc",
+    "Epsilon_Group",
+    "Delta_Logistics"
+   ],
+   "recommendation": "Gamma_Co"
+  },
+  {
+   "scenario": "Normal (x1.0)",
+   "demand": 1866,
+   "feasible_in_rank_order": [
+    "Gamma_Co",
+    "Beta_Supplies",
+    "Delta_Logistics"
+   ],
+   "recommendation": "Gamma_Co"
+  },
+  {
+   "scenario": "High (x1.2)",
+   "demand": 2240,
+   "feasible_in_rank_order": [
+    "Beta_Supplies"
+   ],
+   "recommendation": "Beta_Supplies"
+  }
+ ]
+}

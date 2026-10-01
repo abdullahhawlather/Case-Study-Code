@@ -1,0 +1,349 @@
+{
+ "n": 150,
+ "first_response": "2026-09-24 05:53:49.856000",
+ "last_response": "2026-09-26 23:18:47.693000",
+ "students": 130,
+ "share_cat": {
+  "Electronics": 53.3,
+  "Raw Materials": 14.7,
+  "Packaging": 13.3,
+  "MRO": 9.3,
+  "Office Supplies": 9.3
+ },
+ "share_frequency": {
+  "Monthly": 36.0,
+  "Weekly": 22.7,
+  "Quarterly": 20.7,
+  "Annually": 12.7,
+  "Bi-annually": 8.0
+ },
+ "share_volume": {
+  "1-100 units": 64.7,
+  "101-500 units": 22.0,
+  "501-1000 units": 6.0,
+  "1000+ units": 3.3,
+  "1-2 units": 0.7,
+  "10-15": 0.7,
+  "10-20": 0.7,
+  "1500+": 0.7,
+  "1-2": 0.7,
+  "2000 units": 0.7
+ },
+ "share_price_10": {
+  "Will reduce purchase volume / look for lower-cost alternatives": 46.7,
+  "Uncertain / Depends on market alternatives": 20.7,
+  "Will continue buying the same quantity without hesitation": 16.7,
+  "Will immediately switch to a competing supplier or product type": 16.0
+ },
+ "share_promo_influence": {
+  "Moderately influence (They encourage larger batch orders)": 46.7,
+  "Strongly influence (I actively wait for promotions)": 30.0,
+  "Slightly influence (Nice to have, but doesn\u2019t change core needs)": 19.3,
+  "Do not influence at all": 4.0
+ },
+ "share_promo_type": {
+  "Direct percentage price discounts": 36.7,
+  "Volume-based tier rebates (buy more, save more)": 34.0,
+  "Free or subsidized transportation/shipping costs": 20.7,
+  "Extended payment terms or credit lines": 8.7
+ },
+ "share_satisfaction": {
+  "Satisfied": 52.7,
+  "Neutral": 28.7,
+  "Very satisfied": 14.7,
+  "Dissatisfied": 2.7,
+  "Very dissatisfied": 1.3
+ },
+ "share_issues": {
+  "Yes": 66.0,
+  "No": 34.0
+ },
+ "share_continue": {
+  "Likely": 46.0,
+  "Neutral": 32.0,
+  "Extremely Likely": 16.0,
+  "Unlikely": 4.7,
+  "Extremely Unlikely": 1.3
+ },
+ "share_volume_change": {
+  "Moderate increase (1\u201320% growth)": 51.3,
+  "Significant increase (>20% growth)": 23.3,
+  "Remain stable / unchanged": 22.7,
+  "Decrease": 2.7
+ },
+ "spearman_rho": {
+  "brand": {
+   "brand": 1.0,
+   "price": 0.078,
+   "supplier": 0.327,
+   "sustainability": 0.333,
+   "satisfaction_num": 0.031,
+   "continue_num": 0.092
+  },
+  "price": {
+   "brand": 0.078,
+   "price": 1.0,
+   "supplier": 0.359,
+   "sustainability": 0.38,
+   "satisfaction_num": 0.162,
+   "continue_num": 0.058
+  },
+  "supplier": {
+   "brand": 0.327,
+   "price": 0.359,
+   "supplier": 1.0,
+   "sustainability": 0.373,
+   "satisfaction_num": 0.039,
+   "continue_num": 0.069
+  },
+  "sustainability": {
+   "brand": 0.333,
+   "price": 0.38,
+   "supplier": 0.373,
+   "sustainability": 1.0,
+   "satisfaction_num": 0.173,
+   "continue_num": 0.054
+  },
+  "satisfaction_num": {
+   "brand": 0.031,
+   "price": 0.162,
+   "supplier": 0.039,
+   "sustainability": 0.173,
+   "satisfaction_num": 1.0,
+   "continue_num": 0.196
+  },
+  "continue_num": {
+   "brand": 0.092,
+   "price": 0.058,
+   "supplier": 0.069,
+   "sustainability": 0.054,
+   "satisfaction_num": 0.196,
+   "continue_num": 1.0
+  }
+ },
+ "spearman_p": {
+  "brand": {
+   "brand": 1.0,
+   "price": 0.3451,
+   "supplier": 0.0,
+   "sustainability": 0.0,
+   "satisfaction_num": 0.7075,
+   "continue_num": 0.2646
+  },
+  "price": {
+   "brand": 0.3451,
+   "price": 1.0,
+   "supplier": 0.0,
+   "sustainability": 0.0,
+   "satisfaction_num": 0.0472,
+   "continue_num": 0.4805
+  },
+  "supplier": {
+   "brand": 0.0,
+   "price": 0.0,
+   "supplier": 1.0,
+   "sustainability": 0.0,
+   "satisfaction_num": 0.6392,
+   "continue_num": 0.4047
+  },
+  "sustainability": {
+   "brand": 0.0,
+   "price": 0.0,
+   "supplier": 0.0,
+   "sustainability": 1.0,
+   "satisfaction_num": 0.0344,
+   "continue_num": 0.5096
+  },
+  "satisfaction_num": {
+   "brand": 0.7075,
+   "price": 0.0472,
+   "supplier": 0.6392,
+   "sustainability": 0.0344,
+   "satisfaction_num": 1.0,
+   "continue_num": 0.0162
+  },
+  "continue_num": {
+   "brand": 0.2646,
+   "price": 0.4805,
+   "supplier": 0.4047,
+   "sustainability": 0.5096,
+   "satisfaction_num": 0.0162,
+   "continue_num": 1.0
+  }
+ },
+ "mean_importance": {
+  "brand": {
+   "Electronics": 4.32,
+   "MRO": 4.29,
+   "Office Supplies": 4.21,
+   "Packaging": 3.85,
+   "Raw Materials": 4.0
+  },
+  "price": {
+   "Electronics": 4.3,
+   "MRO": 4.07,
+   "Office Supplies": 4.14,
+   "Packaging": 3.9,
+   "Raw Materials": 4.23
+  },
+  "supplier": {
+   "Electronics": 4.24,
+   "MRO": 4.14,
+   "Office Supplies": 4.36,
+   "Packaging": 3.7,
+   "Raw Materials": 3.86
+  },
+  "sustainability": {
+   "Electronics": 3.88,
+   "MRO": 4.21,
+   "Office Supplies": 3.93,
+   "Packaging": 3.65,
+   "Raw Materials": 3.91
+  }
+ },
+ "category_n": {
+  "Electronics": 80,
+  "Raw Materials": 22,
+  "Packaging": 20,
+  "MRO": 14,
+  "Office Supplies": 14
+ },
+ "promotion_crosstab": {
+  "Direct percentage price discounts": {
+   "Electronics": 0.41,
+   "MRO": 0.21,
+   "Office Supplies": 0.21,
+   "Packaging": 0.3,
+   "Raw Materials": 0.45
+  },
+  "Extended payment terms or credit lines": {
+   "Electronics": 0.09,
+   "MRO": 0.21,
+   "Office Supplies": 0.07,
+   "Packaging": 0.05,
+   "Raw Materials": 0.05
+  },
+  "Free or subsidized transportation/shipping costs": {
+   "Electronics": 0.15,
+   "MRO": 0.43,
+   "Office Supplies": 0.29,
+   "Packaging": 0.25,
+   "Raw Materials": 0.18
+  },
+  "Volume-based tier rebates (buy more, save more)": {
+   "Electronics": 0.35,
+   "MRO": 0.14,
+   "Office Supplies": 0.43,
+   "Packaging": 0.4,
+   "Raw Materials": 0.32
+  }
+ },
+ "segments": [
+  {
+   "price_sensitivity": 3.63,
+   "promo_responsiveness": 1.83,
+   "n": 35
+  },
+  {
+   "price_sensitivity": 2.93,
+   "promo_responsiveness": 4.43,
+   "n": 51
+  },
+  {
+   "price_sensitivity": 4.41,
+   "promo_responsiveness": 4.36,
+   "n": 64
+  }
+ ],
+ "chi_square_tests": {
+  "category_x_satisfaction": {
+   "chi2": 24.06,
+   "dof": 16,
+   "p": 0.0883,
+   "cramers_v": 0.2,
+   "cells_expected_below_5_pct": 64,
+   "monte_carlo_p": 0.0951
+  },
+  "electronics_x_satisfied": {
+   "chi2": 0.0,
+   "dof": 1,
+   "p": 1.0,
+   "cramers_v": 0.0,
+   "cells_expected_below_5_pct": 0,
+   "monte_carlo_p": 1.0
+  },
+  "promo_type_x_volume_increase": {
+   "chi2": 0.83,
+   "dof": 3,
+   "p": 0.842,
+   "cramers_v": 0.074,
+   "cells_expected_below_5_pct": 12,
+   "monte_carlo_p": 0.8441
+  },
+  "issues_x_likely_to_continue": {
+   "chi2": 1.05,
+   "dof": 1,
+   "p": 0.3065,
+   "cramers_v": 0.084,
+   "cells_expected_below_5_pct": 0,
+   "monte_carlo_p": 0.2921
+  }
+ },
+ "g_c_percent": {
+  "all": 10.7,
+  "Electronics": [
+   9.94,
+   80
+  ],
+  "MRO": [
+   16.07,
+   14
+  ],
+  "Office Supplies": [
+   8.21,
+   14
+  ],
+  "Packaging": [
+   13.5,
+   20
+  ],
+  "Raw Materials": [
+   9.09,
+   22
+  ]
+ },
+ "table6_selected_spearman": {
+  "price_vs_brand": {
+   "rho": 0.0776,
+   "p": 0.3451
+  },
+  "supplier_vs_satisfaction": {
+   "rho": 0.0386,
+   "p": 0.6392
+  },
+  "satisfaction_vs_repurchase": {
+   "rho": 0.196,
+   "p": 0.0162
+  }
+ },
+ "table7_chi_square": {
+  "category_vs_satisfaction": {
+   "chi2": 24.06,
+   "p": 0.088,
+   "dof": 16,
+   "significant_at_5pct": false
+  },
+  "promo_type_vs_volume_change": {
+   "chi2": 3.63,
+   "p": 0.934,
+   "dof": 9,
+   "significant_at_5pct": false
+  },
+  "issues_vs_repurchase_intention": {
+   "chi2": 8.58,
+   "p": 0.073,
+   "dof": 4,
+   "significant_at_5pct": false
+  }
+ }
+}

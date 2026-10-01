@@ -1,0 +1,66 @@
+{
+ "overall_average_demand": 1094.6602316602316,
+ "rows": 777,
+ "table": {
+  "January": {
+   "avg_demand": 1093.698,
+   "rows": 63,
+   "seasonal_factor": 0.999
+  },
+  "February": {
+   "avg_demand": 1195.473,
+   "rows": 55,
+   "seasonal_factor": 1.092
+  },
+  "March": {
+   "avg_demand": 1220.238,
+   "rows": 80,
+   "seasonal_factor": 1.115
+  },
+  "April": {
+   "avg_demand": 1129.824,
+   "rows": 68,
+   "seasonal_factor": 1.032
+  },
+  "May": {
+   "avg_demand": 1081.467,
+   "rows": 45,
+   "seasonal_factor": 0.988
+  },
+  "June": {
+   "avg_demand": 975.35,
+   "rows": 60,
+   "seasonal_factor": 0.891
+  },
+  "July": {
+   "avg_demand": 1086.169,
+   "rows": 71,
+   "seasonal_factor": 0.992
+  },
+  "August": {
+   "avg_demand": 1060.257,
+   "rows": 74,
+   "seasonal_factor": 0.969
+  },
+  "September": {
+   "avg_demand": 1074.056,
+   "rows": 72,
+   "seasonal_factor": 0.981
+  },
+  "October": {
+   "avg_demand": 1032.717,
+   "rows": 60,
+   "seasonal_factor": 0.943
+  },
+  "November": {
+   "avg_demand": 1043.041,
+   "rows": 73,
+   "seasonal_factor": 0.953
+  },
+  "December": {
+   "avg_demand": 1129.446,
+   "rows": 56,
+   "seasonal_factor": 1.032
+  }
+ }
+}

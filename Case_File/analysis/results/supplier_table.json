@@ -1,0 +1,116 @@
+{
+  "derived_from_orders": [
+    {
+      "Supplier": "Alpha_Inc",
+      "Unit Price": 52.59,
+      "Lead Time (d)": 11.3,
+      "Quality %": 98.2,
+      "Capacity": 12890,
+      "Delay Rate %": 19.3,
+      "Defect Rate %": 1.81,
+      "Reliability %": 94.0,
+      "Transport Cost": 2.63
+    },
+    {
+      "Supplier": "Beta_Supplies",
+      "Unit Price": 52.09,
+      "Lead Time (d)": 11.5,
+      "Quality %": 92.4,
+      "Capacity": 14446,
+      "Delay Rate %": 23.7,
+      "Defect Rate %": 7.56,
+      "Reliability %": 75.6,
+      "Transport Cost": 2.6
+    },
+    {
+      "Supplier": "Delta_Logistics",
+      "Unit Price": 51.65,
+      "Lead Time (d)": 11.2,
+      "Quality %": 89.2,
+      "Capacity": 15208,
+      "Delay Rate %": 25.3,
+      "Defect Rate %": 10.83,
+      "Reliability %": 59.4,
+      "Transport Cost": 2.58
+    },
+    {
+      "Supplier": "Epsilon_Group",
+      "Unit Price": 54.98,
+      "Lead Time (d)": 11.2,
+      "Quality %": 97.4,
+      "Capacity": 15978,
+      "Delay Rate %": 26.8,
+      "Defect Rate %": 2.59,
+      "Reliability %": 97.8,
+      "Transport Cost": 2.75
+    },
+    {
+      "Supplier": "Gamma_Co",
+      "Unit Price": 54.99,
+      "Lead Time (d)": 10.5,
+      "Quality %": 95.5,
+      "Capacity": 16700,
+      "Delay Rate %": 18.9,
+      "Defect Rate %": 4.5,
+      "Reliability %": 86.0,
+      "Transport Cost": 2.75
+    }
+  ],
+  "static_file": [
+    {
+      "Supplier": "Alpha_Inc",
+      "Unit Price": 58.39,
+      "Lead Time": 11.3,
+      "Quality": 98.2,
+      "Capacity": 36646,
+      "Historical Delay Rate": 19.3,
+      "Defect Rate": 1.8,
+      "Reliability": 93.6,
+      "Transportation Cost": 389.16
+    },
+    {
+      "Supplier": "Beta_Supplies",
+      "Unit Price": 58.28,
+      "Lead Time": 11.5,
+      "Quality": 92.3,
+      "Capacity": 48279,
+      "Historical Delay Rate": 23.7,
+      "Defect Rate": 7.7,
+      "Reliability": 75.6,
+      "Transportation Cost": 187.56
+    },
+    {
+      "Supplier": "Delta_Logistics",
+      "Unit Price": 56.24,
+      "Lead Time": 11.2,
+      "Quality": 89.2,
+      "Capacity": 34755,
+      "Historical Delay Rate": 25.3,
+      "Defect Rate": 10.8,
+      "Reliability": 60.8,
+      "Transportation Cost": 382.07
+    },
+    {
+      "Supplier": "Epsilon_Group",
+      "Unit Price": 59.39,
+      "Lead Time": 11.2,
+      "Quality": 97.4,
+      "Capacity": 28179,
+      "Historical Delay Rate": 26.8,
+      "Defect Rate": 2.6,
+      "Reliability": 98.2,
+      "Transportation Cost": 366.37
+    },
+    {
+      "Supplier": "Gamma_Co",
+      "Unit Price": 59.35,
+      "Lead Time": 10.5,
+      "Quality": 95.5,
+      "Capacity": 38972,
+      "Historical Delay Rate": 18.9,
+      "Defect Rate": 4.5,
+      "Reliability": 86.0,
+      "Transportation Cost": 260.38
+    }
+  ]
+}

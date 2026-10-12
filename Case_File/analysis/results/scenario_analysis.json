@@ -1,0 +1,74 @@
+{
+  "historical_model": "Holt damped-trend exponential smoothing",
+  "historical_forecast_30_day": 50225.34,
+  "alpha": 0.4,
+  "survey_implied_growth": 0.107,
+  "hybrid_formula": "D_hybrid = D_h * (1 + alpha * g_c) * scenario",
+  "D_hybrid_normal": 52374.99,
+  "forecast_is_deterministic": true,
+  "table12": [
+    {
+      "supplier": "Gamma_Co",
+      "capacity": 16700.0,
+      "score": 0.681,
+      "rank": 1,
+      "forecasted_demand": 52374.99,
+      "feasible_at_normal_demand": false
+    },
+    {
+      "supplier": "Alpha_Inc",
+      "capacity": 12890.0,
+      "score": 0.646,
+      "rank": 2,
+      "forecasted_demand": 52374.99,
+      "feasible_at_normal_demand": false
+    },
+    {
+      "supplier": "Epsilon_Group",
+      "capacity": 15978.0,
+      "score": 0.575,
+      "rank": 3,
+      "forecasted_demand": 52374.99,
+      "feasible_at_normal_demand": false
+    },
+    {
+      "supplier": "Beta_Supplies",
+      "capacity": 14446.0,
+      "score": 0.449,
+      "rank": 4,
+      "forecasted_demand": 52374.99,
+      "feasible_at_normal_demand": false
+    },
+    {
+      "supplier": "Delta_Logistics",
+      "capacity": 15208.0,
+      "score": 0.371,
+      "rank": 5,
+      "forecasted_demand": 52374.99,
+      "feasible_at_normal_demand": false
+    }
+  ],
+  "table13": [
+    {
+      "scenario": "Low (x0.8)",
+      "scenario_multiplier": 0.8,
+      "demand": 41899.99,
+      "feasible_in_rank_order": [],
+      "recommendation": "No feasible supplier"
+    },
+    {
+      "scenario": "Normal (x1.0)",
+      "scenario_multiplier": 1.0,
+      "demand": 52374.99,
+      "feasible_in_rank_order": [],
+      "recommendation": "No feasible supplier"
+    },
+    {
+      "scenario": "High (x1.2)",
+      "scenario_multiplier": 1.2,
+      "demand": 62849.98,
+      "feasible_in_rank_order": [],
+      "recommendation": "No feasible supplier"
+    }
+  ]
+}

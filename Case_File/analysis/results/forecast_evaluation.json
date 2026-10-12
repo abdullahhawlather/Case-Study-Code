@@ -1,0 +1,144 @@
+{
+  "target": "weekly total order quantity",
+  "historical_model": "Holt damped-trend exponential smoothing",
+  "evaluation_design": "chronological fixed-origin multi-step forecast; no target-horizon observations used for fitting",
+  "lstm_configuration": {
+    "units": 32,
+    "activation": "relu",
+    "lookback_weeks": 3,
+    "epochs": 25,
+    "batch_size": 2,
+    "optimizer": "adam",
+    "loss": "mse",
+    "scaling": "MinMaxScaler",
+    "seeds": 5,
+    "forecasting": "recursive multi-step"
+  },
+  "weeks": 105,
+  "date_start": "2022-01-03",
+  "date_end": "2024-01-01",
+  "split": {
+    "train": 73,
+    "validation": 15,
+    "test": 17
+  },
+  "validation": {
+    "Naive (last week)": {
+      "MAE": 5405.4,
+      "RMSE": 6654.761478320116,
+      "MAPE": 54.42965952856918,
+      "sMAPE": 80.81213505612513,
+      "WAPE": 64.56110456413033
+    },
+    "Moving average (4 wk)": {
+      "MAE": 3365.4,
+      "RMSE": 4173.485537693085,
+      "MAPE": 53.55808580576402,
+      "sMAPE": 43.89350429460013,
+      "WAPE": 40.19571933624231
+    },
+    "Training mean": {
+      "MAE": 3199.0940639269406,
+      "RMSE": 4016.770526889839,
+      "MAPE": 58.0052340108693,
+      "sMAPE": 41.44220075968556,
+      "WAPE": 38.20939178815183
+    },
+    "Exp. smoothing (SES)": {
+      "MAE": 3199.0929047193376,
+      "RMSE": 4016.7694579353433,
+      "MAPE": 58.00534387131867,
+      "sMAPE": 41.44217931846251,
+      "WAPE": 38.209377942789175
+    },
+    "Holt damped trend": {
+      "MAE": 3184.8924029373206,
+      "RMSE": 4009.3159356223364,
+      "MAPE": 59.35115071124627,
+      "sMAPE": 41.17694173832117,
+      "WAPE": 38.03976975830478
+    },
+    "ARIMA(1,0,1)": {
+      "MAE": 3258.7674878762937,
+      "RMSE": 4081.0159509751174,
+      "MAPE": 59.51239634921922,
+      "sMAPE": 42.051891402108,
+      "WAPE": 38.9221202010896
+    },
+    "LSTM (32 units, ReLU; mean over seeds)": {
+      "MAE": 3182.365838514566,
+      "RMSE": 4011.5909844768044,
+      "MAPE": 57.720040649943584,
+      "sMAPE": 41.233989779184064,
+      "WAPE": 38.009592936999155
+    }
+  },
+  "test": {
+    "Naive (last week)": {
+      "MAE": 3598.1176470588234,
+      "RMSE": 4202.213366366656,
+      "MAPE": 62.97404627011747,
+      "sMAPE": 41.96355590770197,
+      "WAPE": 46.41147236238097
+    },
+    "Moving average (4 wk)": {
+      "MAE": 2392.205882352941,
+      "RMSE": 2898.6760694983413,
+      "MAPE": 41.164796997018406,
+      "sMAPE": 31.043757569141807,
+      "WAPE": 30.856633407944155
+    },
+    "Training mean": {
+      "MAE": 2164.66577540107,
+      "RMSE": 2580.6061002321094,
+      "MAPE": 34.417392379309305,
+      "sMAPE": 28.754449604304643,
+      "WAPE": 27.92163449434211
+    },
+    "Exp. smoothing (SES)": {
+      "MAE": 2164.6688404063702,
+      "RMSE": 2580.597720766072,
+      "MAPE": 34.417210342247344,
+      "sMAPE": 28.754498534609652,
+      "WAPE": 27.921674029294202
+    },
+    "Holt damped trend": {
+      "MAE": 2174.097361735858,
+      "RMSE": 2614.9087118444586,
+      "MAPE": 35.2783588901088,
+      "sMAPE": 28.82712712316727,
+      "WAPE": 28.04329083008429
+    },
+    "ARIMA(1,0,1)": {
+      "MAE": 2160.0990396036746,
+      "RMSE": 2574.2450346496285,
+      "MAPE": 34.317529234844265,
+      "sMAPE": 28.702757263428435,
+      "WAPE": 27.862728990676782
+    },
+    "LSTM (32 units, ReLU; mean over seeds)": {
+      "MAE": 2173.1039948603684,
+      "RMSE": 2578.6185295200607,
+      "MAPE": 34.48671145835079,
+      "sMAPE": 28.85775703891257,
+      "WAPE": 28.03047756942696
+    }
+  },
+  "lstm_seed_std": {
+    "validation": {
+      "MAE": 8.870326844923122,
+      "RMSE": 14.503870789754467,
+      "MAPE": 0.1774209975028576,
+      "sMAPE": 0.1025641251097141,
+      "WAPE": 0.105945554251879
+    },
+    "test": {
+      "MAE": 1.4304933254939054,
+      "RMSE": 19.103388835167248,
+      "MAPE": 0.4352071360053895,
+      "sMAPE": 0.029613610289693428,
+      "WAPE": 0.018451676113205334
+    }
+  },
+  "best_test_model_by_WAPE": "ARIMA(1,0,1)"
+}

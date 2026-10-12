@@ -1,0 +1,82 @@
+{
+  "scores": {
+    "Prototype weighted score (5 weights)": {
+      "Alpha_Inc": 0.646,
+      "Beta_Supplies": 0.449,
+      "Delta_Logistics": 0.371,
+      "Epsilon_Group": 0.575,
+      "Gamma_Co": 0.681
+    },
+    "SAW (6 equal weights)": {
+      "Alpha_Inc": 0.628,
+      "Beta_Supplies": 0.408,
+      "Delta_Logistics": 0.35,
+      "Epsilon_Group": 0.504,
+      "Gamma_Co": 0.732
+    },
+    "TOPSIS (6 equal weights)": {
+      "Alpha_Inc": 0.668,
+      "Beta_Supplies": 0.408,
+      "Delta_Logistics": 0.244,
+      "Epsilon_Group": 0.588,
+      "Gamma_Co": 0.776
+    },
+    "SAW (entropy weights)": {
+      "Alpha_Inc": 0.789,
+      "Beta_Supplies": 0.408,
+      "Delta_Logistics": 0.158,
+      "Epsilon_Group": 0.621,
+      "Gamma_Co": 0.83
+    }
+  },
+  "ranks": {
+    "Prototype weighted score (5 weights)": {
+      "Alpha_Inc": 2,
+      "Beta_Supplies": 4,
+      "Delta_Logistics": 5,
+      "Epsilon_Group": 3,
+      "Gamma_Co": 1
+    },
+    "SAW (6 equal weights)": {
+      "Alpha_Inc": 2,
+      "Beta_Supplies": 4,
+      "Delta_Logistics": 5,
+      "Epsilon_Group": 3,
+      "Gamma_Co": 1
+    },
+    "TOPSIS (6 equal weights)": {
+      "Alpha_Inc": 2,
+      "Beta_Supplies": 4,
+      "Delta_Logistics": 5,
+      "Epsilon_Group": 3,
+      "Gamma_Co": 1
+    },
+    "SAW (entropy weights)": {
+      "Alpha_Inc": 2,
+      "Beta_Supplies": 4,
+      "Delta_Logistics": 5,
+      "Epsilon_Group": 3,
+      "Gamma_Co": 1
+    }
+  },
+  "kendall_tau_vs_prototype": {
+    "SAW (6 equal weights)": 1.0,
+    "TOPSIS (6 equal weights)": 1.0,
+    "SAW (entropy weights)": 1.0
+  },
+  "entropy_weights": {
+    "Cost": 0.012,
+    "Quality": 0.021,
+    "Lead": 0.016,
+    "Delay": 0.329,
+    "Reliability": 0.492,
+    "Capacity": 0.13
+  },
+  "weight_monte_carlo_top1_share": {
+    "Alpha_Inc": 0.436,
+    "Beta_Supplies": 0.0,
+    "Delta_Logistics": 0.048,
+    "Epsilon_Group": 0.088,
+    "Gamma_Co": 0.428
+  }
+}

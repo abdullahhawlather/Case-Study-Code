@@ -1,0 +1,53 @@
+{
+  "model": "Holt damped-trend exponential smoothing",
+  "diagnostics": {
+    "None": {
+      "model": "Holt damped-trend exponential smoothing",
+      "horizon_days": 30,
+      "n_observations": 420,
+      "used_history": true,
+      "average_observation_step_days": 1.0,
+      "forecast": 50225.34183738413
+    },
+    "P001": {
+      "model": "Holt damped-trend exponential smoothing",
+      "horizon_days": 30,
+      "n_observations": 113,
+      "used_history": true,
+      "average_observation_step_days": 4.0,
+      "forecast": 9243.468639256367
+    },
+    "P002": {
+      "model": "Holt damped-trend exponential smoothing",
+      "horizon_days": 30,
+      "n_observations": 117,
+      "used_history": true,
+      "average_observation_step_days": 4.0,
+      "forecast": 10645.851173315794
+    },
+    "P003": {
+      "model": "Holt damped-trend exponential smoothing",
+      "horizon_days": 30,
+      "n_observations": 124,
+      "used_history": true,
+      "average_observation_step_days": 4.0,
+      "forecast": 9253.938584272604
+    },
+    "P004": {
+      "model": "Holt damped-trend exponential smoothing",
+      "horizon_days": 30,
+      "n_observations": 108,
+      "used_history": true,
+      "average_observation_step_days": 4.0,
+      "forecast": 10864.696379347515
+    },
+    "P005": {
+      "model": "Holt damped-trend exponential smoothing",
+      "horizon_days": 30,
+      "n_observations": 106,
+      "used_history": true,
+      "average_observation_step_days": 6.0,
+      "forecast": 5948.316476567792
+    }
+  }
+}

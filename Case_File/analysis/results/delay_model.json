@@ -1,0 +1,60 @@
+{
+  "valid_orders": 773,
+  "excluded_orders": 4,
+  "delay_threshold_days": 15.0,
+  "delay_prevalence": 0.23027166882276842,
+  "test_orders": 116,
+  "test_prevalence": 0.20689655172413793,
+  "models": {
+    "Random Forest": {
+      "AUC": 0.506340579710145,
+      "Brier": 0.16891065918891315,
+      "Accuracy": 0.46551724137931033,
+      "Precision": 0.1935483870967742,
+      "Recall": 0.5,
+      "F1": 0.27906976744186046
+    },
+    "Gradient Boosting": {
+      "AUC": 0.4716938405797102,
+      "Brier": 0.17265127683109716,
+      "Accuracy": 0.5,
+      "Precision": 0.16,
+      "Recall": 0.3333333333333333,
+      "F1": 0.21621621621621623
+    },
+    "XGBoost": {
+      "AUC": 0.4830163043478261,
+      "Brier": 0.1758887618780136,
+      "Accuracy": 0.5,
+      "Precision": 0.19642857142857142,
+      "Recall": 0.4583333333333333,
+      "F1": 0.275
+    }
+  },
+  "baseline_brier": 0.1650858195735996,
+  "leaky_model_with_lead_time": {
+    "AUC": 1.0,
+    "Brier": 0.022709111141300656,
+    "Accuracy": 1.0,
+    "Precision": 1.0,
+    "Recall": 1.0,
+    "F1": 1.0
+  },
+  "threshold_sensitivity": {
+    "0.6": {
+      "threshold_days": 14.0,
+      "prevalence": 0.2833117723156533,
+      "AUC": 0.4508944870390653
+    },
+    "0.75": {
+      "threshold_days": 15.0,
+      "prevalence": 0.23027166882276842,
+      "AUC": 0.506340579710145
+    },
+    "0.9": {
+      "threshold_days": 18.0,
+      "prevalence": 0.09573091849935317,
+      "AUC": 0.5360576923076923
+    }
+  }
+}

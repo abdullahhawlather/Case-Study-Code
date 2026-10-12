@@ -1,0 +1,112 @@
+{
+  "None": {
+    "n_history": 420,
+    "n_survey": 150,
+    "D_h": 50225.34183738413,
+    "D_c": 36470.44553184509,
+    "alpha_0.0": {
+      "hybrid_demand": 50225.34183738413,
+      "feasible_suppliers": 0,
+      "ranking": []
+    },
+    "alpha_0.4": {
+      "hybrid_demand": 44723.38331516851,
+      "feasible_suppliers": 0,
+      "ranking": []
+    }
+  },
+  "P001": {
+    "n_history": 113,
+    "n_survey": 80,
+    "D_h": 9243.468639256367,
+    "D_c": 10831.771392345428,
+    "alpha_0.0": {
+      "hybrid_demand": 9243.468639256367,
+      "feasible_suppliers": 0,
+      "ranking": []
+    },
+    "alpha_0.4": {
+      "hybrid_demand": 9878.789740491991,
+      "feasible_suppliers": 0,
+      "ranking": []
+    }
+  },
+  "P002": {
+    "n_history": 117,
+    "n_survey": 14,
+    "D_h": 10645.851173315794,
+    "D_c": 5704.890758514404,
+    "alpha_0.0": {
+      "hybrid_demand": 10645.851173315794,
+      "feasible_suppliers": 0,
+      "ranking": []
+    },
+    "alpha_0.4": {
+      "hybrid_demand": 8669.467007395238,
+      "feasible_suppliers": 0,
+      "ranking": []
+    }
+  },
+  "P003": {
+    "n_history": 124,
+    "n_survey": 14,
+    "D_h": 9253.938584272604,
+    "D_c": 4467.908794403076,
+    "alpha_0.0": {
+      "hybrid_demand": 9253.938584272604,
+      "feasible_suppliers": 0,
+      "ranking": []
+    },
+    "alpha_0.4": {
+      "hybrid_demand": 7339.526668324793,
+      "feasible_suppliers": 1,
+      "ranking": [
+        [
+          "Delta_Logistics",
+          1.0
+        ]
+      ]
+    }
+  },
+  "P004": {
+    "n_history": 108,
+    "n_survey": 20,
+    "D_h": 10864.696379347515,
+    "D_c": 6424.22251996398,
+    "alpha_0.0": {
+      "hybrid_demand": 10864.696379347515,
+      "feasible_suppliers": 0,
+      "ranking": []
+    },
+    "alpha_0.4": {
+      "hybrid_demand": 9088.5068355941,
+      "feasible_suppliers": 0,
+      "ranking": []
+    }
+  },
+  "P005": {
+    "n_history": 106,
+    "n_survey": 22,
+    "D_h": 5948.316476567792,
+    "D_c": 8875.241878509521,
+    "alpha_0.0": {
+      "hybrid_demand": 5948.316476567792,
+      "feasible_suppliers": 2,
+      "ranking": [
+        [
+          "Beta_Supplies",
+          0.6
+        ],
+        [
+          "Delta_Logistics",
+          0.4
+        ]
+      ]
+    },
+    "alpha_0.4": {
+      "hybrid_demand": 7119.086637344484,
+      "feasible_suppliers": 0,
+      "ranking": []
+    }
+  }
+}
